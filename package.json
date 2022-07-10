@@ -1,0 +1,26 @@
+{
+  "name": "hapi-app",
+  "version": "1.0.0",
+  "description": "Hapi app",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app"
+  },
+  "author": "Rishav Saha",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.1.0",
+    "ejs": "^3.1.8",
+    "mongoose": "^6.4.3",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Enter your details</h1>
+        <form action="/login" method="post">
+            <div class="login-details">
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <input type="password" name="password" id="password" placeholder="Enter password" required>
+                <input type="submit" value="Login" id="submit">
+                <div class="signup flex">
+                    <h4>Create An Account</h4>
+                    <a href="/">Sign Up</a>
+                </div>
+                <div class="forgot">
+                    <a href="/forgot">Forgotten Password?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    padding: 20px;
+}
+
+.home-buttons, .login-details, .sign-up-details, .welcome, .change-pass-details, .forgot-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login, #sign-up, #logout {
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1A76FB;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+#username, #email, #password, #confirm-password ,#register, #submit, #oldPass, #newPass, #confPass {
+    margin: 10px;
+    height: 40px;
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+input[type=file]::file-selector-button {
+    margin: 10px;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1A76FB;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+#profile {
+    width: 100%;
+}
+
+#register, #submit, #logout {
+    width: 200px;
+    cursor: pointer;
+    background-color: #1A76FB;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#login:hover, #sign-up:hover, #submit:hover, #register:hover , #logout:hover {
+    background-color: #1663ce;
+}
+
+.flex {
+    margin-top: 10px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: #256dd1;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: #1663ce;
+}
+
+.forgot {
+    margin-top: 10px;
+}
